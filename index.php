@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -92,5 +93,8 @@ $core = new Core();
 $core->run($routes);
 */
 -->
+
+=======
+<?php
 
 
