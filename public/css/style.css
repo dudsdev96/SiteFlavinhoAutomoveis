@@ -1,0 +1,113 @@
+
+/* Layout da Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+}
+
+.div-logo {
+    background: #ffffff;
+    height: 90px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Logomarca */
+.div-logo img {
+    background: #ffffff;
+    height: 90px; /* Ajusta o tamanho da Logomarca */
+    width: auto; /*Mantém a proporção */
+    margin-left: 160px;
+    
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px
+}
+
+/* Toggle para Mobile */
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #222121;
+    font-size: 14px;
+}
+
+p {
+    color: #ffffff;
+    margin-left: 50px;
+    
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 50px;
+    
+}
+
+/* Responsividade para Mobile */
+
+@media (max-width: 768px) {
+/* Dentro de @media vamos ter mais classes
+que vão ser aplicadas quando a tela tiver 768px ou menos
+de largura. Essas classes abaixo serão aplicadas
+quando chegar nessa medida de tela. */
+
+.navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+}
+
+/* Classe .active vai moficiar a classe .navbar-links
+para que o Javascritp possa ativar e desativar ela
+em uma função. Esse ato irá fazer o componente 
+men navbar colapsar e aparecer*/
+
+.navbar-links.active {
+    display: flex;
+    /* Essa classe active vai usar o flexbox
+    como layout, porém o que vai fazer o comportamento dela
+    será a função toggleMenu() no JS*/
+}
+
+.navbar-toggle {
+    display: flex;
+}
+
+}
