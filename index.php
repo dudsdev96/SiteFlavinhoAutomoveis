@@ -24,10 +24,10 @@
         <div class="botao-whatsapp">
            <a href="https://wa.me/5564996777969" target="_blank">
                 <img src="public/images/iconewhatsapp.png" alt="WhatsApp"> 
-                Whatsapp
           </a>
+          Whatsapp
        </div>
-
+       
        <div class="botao-ligar">
             <a href="tel+5564996777969">
                 Ligar
