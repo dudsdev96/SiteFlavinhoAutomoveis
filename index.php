@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,18 +16,36 @@
 
   <header>
       <!-- Logomarca --> 
-      <div class="div-logo">
-            <a href="#">
-                <img src="public/images/logopreto.png" alt="Logo">
+    <div class="div-logo">
+        <a href="#">
+            <img src="public/images/logopreto.png" alt="Logo"> 
+        </a>
+
+        <div class="botao-whatsapp">
+           <a href="https://wa.me/5564996777969" target="_blank">
+                <img src="public/images/iconewhatsapp.png" alt="WhatsApp"> 
+                Whatsapp
+          </a>
+       </div>
+
+       <div class="botao-ligar">
+            <a href="tel+5564996777969">
+                Ligar
             </a>
-        </div>
+       </div>
+
+    </div>
+
+     
+      
+      
     <nav class="navbar">
         <!-- Links da Navbar--> 
         <ul class="navbar-links">
             <li><a href="#home">Home</a></li>
+            <li><a href="#financiamento">Financiamento</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#contato">Contato</a></li>
         </ul>
 
         <!-- Toggle para Mobile --> 
@@ -94,7 +111,7 @@ $core->run($routes);
 */
 -->
 
-=======
-<?php
+
+
 
 
