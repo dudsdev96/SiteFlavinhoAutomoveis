@@ -15,25 +15,28 @@
 <body>
 
   <header>
-      <!-- Logomarca --> 
-    <div class="div-logo">
+    <!-- DIV TOP contendo logo, links e ícones e contato -->
+    <div class="top-container">
+      <!-- Logomarca abaixo -->
+      <div class="logo">
         <a href="#">
-            <img src="public/images/logopreto.png" alt="Logo"> 
+          <img src="public/images/logopreto.png" alt="Logo" class="logo"> 
         </a>
+      </div>
 
-        <div class="botao-whatsapp">
-           <a href="https://wa.me/5564996777969" target="_blank">
-                <img src="public/images/iconewhatsapp.png" alt="WhatsApp"> 
-          </a>
-          Whatsapp
-       </div>
-       
-       <div class="botao-ligar">
-            <a href="tel+5564996777969">
-                Ligar
-            </a>
-       </div>
+      <div class="link-container">
+        <span class="link-text"> Whatsapp </span>
+        <a href="https://wa.me/5564996777969" target="_blank" class="link-item">
+          <img src="public/images/icone-whatsapp.png" alt="WhatsApp" class="icon"> 
+        </a>
+        
+        <span class="link-text">Ligar</span>
+        <a href="tel+5564996777969" class="link-item">
+           <img src="public/images/icone-telefone.png" alt="Ligação" class=icon>
+        </a>
+        
 
+      </div>
     </div>
 
      
@@ -56,15 +59,16 @@
          <span></span>
         </div>
     </nav>
-
+        <!-- Titulo da página no Body --> 
         <h1>Flavinho Automóveis, a sua parceira no ramo de veículos!</h1>
 
   </header>
 
     <main>
         <p>Nossa História: </p>
-
-
+        <br> </br>
+        <br> </br>
+        <br> </br>
 
 
     </main>
@@ -72,7 +76,7 @@
     <footer>
 
         <p>Endereço: Rua Goiás n° , Bairro Santa Inês - Itumbiara-GO 
-        Fone: (64) 9
+        Fone: (64) 99677-7969
         </p>
 
     </footer>
