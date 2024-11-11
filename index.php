@@ -30,12 +30,12 @@
           <img src="public/images/icone-whatsapp.png" alt="WhatsApp" class="icon"> 
         </a>
         
-        <span class="link-text">Ligar</span>
+        <span class="link-text">Ligar:</span>
         <a href="tel+5564996777969" class="link-item">
            <img src="public/images/icone-telefone.png" alt="Ligação" class=icon>
         </a>
         
-
+        <label for="telefone">(64)99677-7969</label>
       </div>
     </div>
 
