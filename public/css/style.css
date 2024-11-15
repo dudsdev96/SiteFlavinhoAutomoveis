@@ -1,4 +1,19 @@
 
+/*Configuração para tela tamanho desktop*/
+@media (min-width: 769px) {
+    #telefone{
+        display: flex;
+    }
+    .link-container label{
+        align-items: center;
+        font-size: 30px;
+        display: inline-block; /* Para se comportar como botão */
+        padding: 10px 20px; /* Espaçamento interno */
+        border: 2px solid #000000;  /* Borda do botão */
+        border-radius: 10px; /* Bordas arredondadas */
+    }
+}
+
 /* Layout da Navbar */
 
 .navbar {
@@ -40,15 +55,7 @@
     margin-right: 100px;
 }
 
-.link-container label{
-    display:flex;
-    align-items: center;
-    font-size: 30px;
-    display: inline-block; /* Para se comportar como botão */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: 2px solid #000000;  /* Borda do botão */
-    border-radius: 10px; /* Bordas arredondadas */
-}
+
 
 .link-item{
     display: flex;
@@ -134,6 +141,10 @@ h1 {
 que vão ser aplicadas quando a tela tiver 768px ou menos
 de largura. Essas classes abaixo serão aplicadas
 quando chegar nessa medida de tela. */
+
+#telefone{
+    display:none; /* Comando para sumir com o label do layout mobile */
+}
 
 .top-container{
     display: flex;

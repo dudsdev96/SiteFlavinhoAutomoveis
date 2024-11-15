@@ -35,7 +35,7 @@
            <img src="public/images/icone-telefone.png" alt="Ligação" class=icon>
         </a>
         
-        <label for="telefone">(64)99677-7969</label>
+        <label id="telefone">(64)99677-7969</label>
       </div>
     </div>
 
