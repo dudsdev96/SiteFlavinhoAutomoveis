@@ -31,7 +31,7 @@
         </a>
         
         <span class="link-text">Ligar:</span>
-        <a href="tel+5564996777969" class="link-item">
+        <a id="telefone-link" class="telefone" href="javascript:void(0)">
            <img src="public/images/icone-telefone.png" alt="Ligação" class=icon>
         </a>
         
@@ -40,8 +40,6 @@
     </div>
 
      
-      
-      
     <nav class="navbar">
         <!-- Links da Navbar--> 
         <ul class="navbar-links">
@@ -63,6 +61,16 @@
         <h1>Flavinho Automóveis, a sua parceira no ramo de veículos!</h1>
 
   </header>
+
+  <div class="carousel">
+    <div class="carousel-track">
+      <img src="foto1.jpg" alt="Imagem 1" class="carousel-image">
+      <img src="foto2.jpg" alt="Imagem 2" class="carousel-image">
+      <img src="foto3.jpg" alt="Imagem 3" class="carousel-image">
+    </div>
+    <button class="carousel-btn prev"> < </button>
+    <button class="carousel-btn next"> > </button>
+  </div>
 
     <main>
         <p>Nossa História: </p>

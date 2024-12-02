@@ -6,7 +6,7 @@
     }
     .link-container label{
         align-items: center;
-        font-size: 30px;
+        font-size: 25px;
         display: inline-block; /* Para se comportar como botão */
         padding: 10px 20px; /* Espaçamento interno */
         border: 2px solid #000000;  /* Borda do botão */
@@ -21,7 +21,10 @@
     justify-content: center;
     align-items: center;
     background-color: #2b2b2b;
-    padding: 2px 5px;
+    margin:0;
+    box-sizing: border-box;
+    
+   
 
 }
 
@@ -55,6 +58,11 @@
     margin-right: 100px;
 }
 
+.telefone{
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+}
 
 
 .link-item{
@@ -73,20 +81,21 @@
 .link-text{
     color: #000000;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .navbar-links {
+    /*margin-left: -40px;*/
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    /*justify-content: center;*/
+    gap: 35px;
     /* Testar gap de 20px (espaçamento entre os links)*/
     
 }
 
 .navbar-links li {
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     
 }
 
@@ -107,9 +116,11 @@
 
 .navbar-toggle span {
     width: 25px;
-    height: 3px;
+    height: 4px;
     background: #fff;
     margin: 4px 0;
+
+    
 }
 
 body{
@@ -132,6 +143,50 @@ h1 {
     
 }
 
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background: rgba(0, 0, 0, 0.7)
+}
+
 /* Responsividade para Mobile */
 
 /* Colocar dentro da Navbar responsiva os itens de Contato botão Ligar e Whatsapp */
@@ -141,6 +196,22 @@ h1 {
 que vão ser aplicadas quando a tela tiver 768px ou menos
 de largura. Essas classes abaixo serão aplicadas
 quando chegar nessa medida de tela. */
+
+.navbar{
+    /* Colocar letras menores e configurar de forma menor a navbar toggle*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
 
 #telefone{
     display:none; /* Comando para sumir com o label do layout mobile */
@@ -193,11 +264,19 @@ quando chegar nessa medida de tela. */
 .navbar-links {
     display: none;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     background-color: #333;
+}
+
+.navbar-links ul{
+    /* testar o tamanho do quadro e centralizar os itens dentro dele*/
+    align-items: center;
+
 }
 
 /* Classe .active vai moficiar a classe .navbar-links
@@ -214,6 +293,17 @@ men navbar colapsar e aparecer*/
 
 .navbar-toggle {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-toggle span{
+    width: 30px; /* Largura da barra */
+    height: 4px; /* Altura da barra */
+    background: #fff; /* Cor da barra */
+    margin: 3px 0; /* Espaçamento entre as barras */
 }
 
 }
