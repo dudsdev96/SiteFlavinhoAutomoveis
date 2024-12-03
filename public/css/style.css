@@ -145,8 +145,10 @@ h1 {
 
 .carousel {
     position: relative;
+    margin: 0 auto;
     width: 80%;
-    max-width: 600px;
+    max-width: 1920px;
+    max-height: 550px; /* Tentei colocar o tamanho e largura máximos do tamanho da foto do Banner*/
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

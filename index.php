@@ -59,10 +59,18 @@
     </nav>
         <!-- Titulo da página no Body --> 
         <h1>Flavinho Automóveis, a sua parceira no ramo de veículos!</h1>
-
   </header>
 
-  
+  <div class="carousel">
+    <div class="carousel-track">
+      <img src="public/images/1.jpg" alt="Imagem 1" class="carousel-image">
+      <img src="public/images/2.jpg" alt="Imagem 2" class="carousel-image">
+      <img src="public/images/3.jpg" alt="Imagem 3" class="carousel-image">
+      <img src="public/images/4.jpg" alt="Imagem 4" class="carousel-image">
+    </div>
+    <button class="carousel-btn prev"> < </button>
+    <button class="carousel-btn next"> > </button>
+  </div>
 
     <main>
         <p>Nossa História: </p>
@@ -70,16 +78,6 @@
         <br> </br>
         <br> </br>
 
-      <div class="carousel">
-        <div class="carousel-track">
-          <img src="1.jpg" alt="Imagem 1" class="carousel-image">
-          <img src="2.jpg" alt="Imagem 2" class="carousel-image">
-          <img src="3.jpg" alt="Imagem 3" class="carousel-image">
-          <img src="4.jpg" alt="Imagem 3" class="carousel-image">
-        </div>
-        <button class="carousel-btn prev"> < </button>
-        <button class="carousel-btn next"> > </button>
-      </div>
     </main>
 
     <footer>

@@ -41,7 +41,7 @@ let currentIndex = 0;
 
 const updateCarousel = () => {
     const imageWidth = images[0].getBoundingClientRect().width;
-    track.style.transform = 'translateX(-${currentIndex * imageWidth}px)';
+    track.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 };
 
 nextButton.addEventListener('click', () => {
