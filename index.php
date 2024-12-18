@@ -58,7 +58,7 @@
         </div>
     </nav>
         <!-- Titulo da página no Body --> 
-        <h1>Flavinho Automóveis, a sua parceira no ramo de veículos!</h1>
+       <!-- <h1>Flavinho Automóveis, a sua parceira no ramo de veículos!</h1> --> 
   </header>
 
   <div class="carousel">
@@ -73,21 +73,17 @@
   </div>
 
     <main>
-        <p>Nossa História: </p>
+        <p> <!-- Colocar Menus e Quadros --> </p>
         <br> </br>
         <br> </br>
         <br> </br>
 
     </main>
-
-    <footer>
-
-        <p>Endereço: Rua Goiás n° , Bairro Santa Inês - Itumbiara-GO 
-        Fone: (64) 99677-7969
-        </p>
-
-    </footer>
-
+  <footer>
+  <p>Endereço: Rua Goiás n° , Bairro Santa Inês - Itumbiara-GO 
+    Fone: (64) 99677-7969
+  </p>
+</footer>
     <script src="public/javascript/script.js"></script>
 </body>
 </html>

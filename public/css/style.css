@@ -109,12 +109,14 @@
 /* Toggle para Mobile */
 
 .navbar-toggle {
+    /*align-items: left; */
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
 
 .navbar-toggle span {
+    /*align-items: left;*/
     width: 25px;
     height: 4px;
     background: #fff;
@@ -129,12 +131,12 @@ body{
     background: #222121;
 }
 
-p {
+main {
     color: #ffffff;
     margin-left: 50px;
     font-size: 18px;
     
-}
+} 
 
 h1 {
     color: #ffffff;
@@ -143,14 +145,21 @@ h1 {
     
 }
 
+footer p{
+   
+   text-align: center;
+   margin-top: auto;
+   color: #ffffff;
+
+}
 .carousel {
     position: relative;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     max-width: 1920px;
-    max-height: 550px; /* Tentei colocar o tamanho e largura máximos do tamanho da foto do Banner*/
+    max-height: 550px; /* Altura do Banner */
     overflow: hidden;
-    border-radius: 10px;
+    /*border-radius: 10px; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -269,9 +278,10 @@ quando chegar nessa medida de tela. */
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: absolute;
-    top: 90px;
+    top: 80px;
     left: 0;
+    position: fixed;
+    z-index: 1000; /* Garante que esteja sobre os outros elementos */
     background-color: #333;
 }
 
